@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter_server_driven_ui/home_page.dart';
+import 'package:flutter_server_driven_ui/home_page_2.dart';
 import 'package:json_dynamic_widget/json_dynamic_widget.dart';
 
 void main() async {
@@ -48,7 +49,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: HomePage(),
+      home: HomePage2Widget(),
       // home: GridViewButtonsPage(),
     );
   }
